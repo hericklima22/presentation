@@ -1,9 +1,8 @@
-import "./styles.scss"
+// import "./styles.scss"
+import TopNavBar from "../../components/TopNavBar/TopNavBar"
 
 export const About = () => {
   return (
-    <div>
-      <h1>Projects {'/>'}</h1>
-    </div>
+      <TopNavBar />
   )
 }

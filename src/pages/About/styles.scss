@@ -1,3 +1,22 @@
 body {
   background-color: #282828;
 }
+h1 {
+  color: #FF5100;
+  margin-left: 100px;
+  font-size: 50px;
+  font-family: 'Courier New', Courier, monospace;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  background-color: #282828;
+  position: relative;
+}
+.txtDiv {
+  width: max-content;
+  height: max-content;
+  background-color: aliceblue;
+}

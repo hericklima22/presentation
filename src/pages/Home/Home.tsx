@@ -1,4 +1,4 @@
-import TopNavBar from "../../components/TopNavBar/TopNavBar"
+import TopNavBar from "../../components/TopNavBar/"
 import "./styles.scss"
 
 export const Home = () => {

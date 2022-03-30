@@ -1,21 +1,18 @@
 import "./styles.scss"
+import { Bloco } from "../../components"
+import Lottie from 'react-lottie'
+import code from "../../assets/lottie/72422-code.json"
 
 export const Home = () => {
+  const defaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: code,
+  }
   return (
     <div className="container">
-      <div className="tittle">
-        <div style={{margin: 10}}>
-          <a>{"> Nome: Herick de Carvalho Lima"}</a>
-        </div>
-        <br></br>
-        <div style={{margin: 10}}>
-          <a>{"> Idade: 22"}</a>
-        </div>
-        <br></br>
-        <div style={{margin: 10}}>
-          <a>{"> Main : Desenvolvedor Front-End"}</a>
-        </div>
-      </div>
+      {/* <Bloco /> */}
+      <Lottie options={defaultOptions} height={100} width={100} />
     </div>
   )  
 }

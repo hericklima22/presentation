@@ -5,19 +5,19 @@ html {
 .container {
   display: flex;
   flex-direction: column;
-  width: 70vw;
+  width: 100vw;
+  height: 100vw;
   margin: auto;
   background-color: #282828;
 }
 
-@media screen and (max-width: 1024px) {
-  .container {
-    width: 90vw;
-  }
+* {
+  color: green;
+  font-size: xx-large;
+  font-family: 'Source Code Pro', monospace;
 }
 
-@media screen and (max-width: 512px) {
-  .container {
-    width: 100vw;
-  }
+.tittle {
+  margin: 1.2vw auto auto 1vw;
+  border-style: dashed;
 }
